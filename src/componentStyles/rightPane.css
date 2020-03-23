@@ -1,0 +1,23 @@
+.rightPane{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+th, td{
+    border:  1px solid black;
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    width: 100%;
+}
+@media (min-width: 1000px){
+  .rightPane{
+      width: 50%;
+  }
+}

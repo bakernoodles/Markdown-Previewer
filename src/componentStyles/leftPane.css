@@ -1,0 +1,35 @@
+.htmlInput{
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    height: 30vh;
+    width: 100%;
+    resize: none;
+    min-width: 300px;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+.leftPane{
+    display: flex;
+    padding:0px;
+    justify-self: flex-start;
+    width: 100%;
+}
+@media screen and (max-width: 600px){
+  .leftPane, .leftPane::before, .leftPane::after{
+    position: sticky;
+    top: 0;
+  }
+}
+@media screen and (max-width: 400px){
+  .leftPane{
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1000px){
+  .leftPane{
+      width: 50%;
+  }
+  .htmlInput{
+      height: 60%;
+  }
+}
