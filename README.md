@@ -9,7 +9,7 @@ This web-app takes markdown as input and shows you a preview of it.
 - Marked library
 
 ### Dependencies
-npm i marked
+marked
 
 ### Thoughts:
 > Fun project i made for freecodecamp.com. It was my first project using the React library. 
